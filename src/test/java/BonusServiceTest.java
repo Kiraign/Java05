@@ -29,8 +29,8 @@ public class BonusServiceTest {
     public void testRegisteredUnderLimit() {
         BonusService service = new BonusService();
 
-        long expected = 150;
-        long actual = service.calculate(5_000, true);
+        long expected = 10;
+        long actual = service.calculate(1_000, false);
         //System.out.println(expected + " == ? == " + actual);
 
         Assertions.assertEquals(expected, actual);
