@@ -10,8 +10,8 @@ public class Main {
         actual = service.calculate(1_000_000, true);
         System.out.println(expected + " == ? == " + actual);
 
-        expected = 150;
-        actual = service.calculate(5_000, true);
+        expected = 10;
+        actual = service.calculate(1_000, false);
         System.out.println(expected + " == ? == " + actual);
 
         expected = 50;
