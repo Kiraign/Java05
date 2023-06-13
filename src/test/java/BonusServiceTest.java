@@ -26,7 +26,7 @@ public class BonusServiceTest {
     }
 
     @Test
-    public void testRegisteredUnderLimit() {
+    public void testUnregistredOverLimit() {
         BonusService service = new BonusService();
 
         long expected = 10;
